@@ -65,7 +65,7 @@ const HomeProductCard = ({ product, isDarkMode, toggleWishlist, isInWishlist }) 
           <span className={`ml-2 text-xs ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>(120)</span>
         </div>
         <div className="flex justify-between items-center mt-4">
-          <span className="font-bold text-lg">${product.salePrice.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
+          <span className="font-bold text-lg">GHS {product.salePrice.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
           <div className="flex items-center space-x-2">
             <button
               onClick={(e) => {
